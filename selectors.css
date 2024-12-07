@@ -1,0 +1,79 @@
+/* Universsal Selector  */
+/* *{
+    background-color: lightcyan;
+} */
+
+/* tag/element selector */
+h1{
+    color: blue;
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid rgb(120, 215, 215);
+    text-align: center;
+}
+/* Class selector . */
+.container{
+    background-color: lightyellow;
+    font-size: larger;
+}
+/* ID selector # */
+#para1{
+    color: rgb(194, 6, 194);
+}
+/* Grouping selector , */
+span,h3{
+    color: maroon;
+}
+/* Attribute selector[] */
+[id ^=chi]{
+    font-family: monospace;
+    font-size: x-large;
+}
+[class$=r2]{
+    background-color: orange;
+}
+[id*=ldr]{
+    background-color: lightgrey;
+}
+/* pseudo elements */
+h4::first-letter{
+    font-size: 50px;
+    color: red;
+}
+h4::first-line{
+    color: green;
+}
+h4::after{
+    content:" --by ak";
+    color: blue;
+}
+h3::before{
+    content: "- M A Abdul kalam ";
+    color: green;
+}
+::selection{
+    color: purple;
+    background-color: aqua;
+}
+/* pseudo class elements */
+img:hover{
+    border: 5px solid green;
+}
+span:first-child{
+    color: magenta;
+}
+span:last-child{
+    background-color: rgb(254, 171, 17);
+}
+span:nth-child(3){
+    color: rgb(40, 18, 207);
+}
+/* relationship selectors */
+/* descendant selector */
+.relationship h2{
+    color: maroon; 
+}
+/* child selector */
+.relationship>h2{
+    background-color: aliceblue;
+}
